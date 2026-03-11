@@ -1,6 +1,6 @@
 (function() {
-    var startTime = new Date('2026-03-11T11:48:00+05:30');
-    var endTime = new Date('2026-03-11T11:52:00+05:30');
+    var startTime = new Date('2026-03-11T12:18:00+05:30');
+    var endTime = new Date('2026-03-11T12:52:00+05:30');
     function formatDate(date) {
         let day = String(date.getDate()).padStart(2, '0');
         let month = String(date.getMonth() + 1).padStart(2, '0');
@@ -174,3 +174,4 @@ We apologize for the inconvenience and appreciate your patience.
     }
     checkMaintenance();
 })();
+
